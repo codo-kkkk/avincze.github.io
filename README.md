@@ -11,3 +11,5 @@ El trabajo práctico consistía en replicar el siguiente modelo de página
 <h4 align="center"> :star: Resolución final del TP :star:
 
 [Aqui](https://avincze.github.io/TP-FrontEnd-Codo-a-Codo-4.0/) <h4>
+[Aqui](https://avincze.github.io/TP-FrontEnd-Codo-a-Codo-4.0/) <h4>
+https://github.com/codo-kkkk/avincze.github.io.git
