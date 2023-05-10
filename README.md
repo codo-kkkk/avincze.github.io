@@ -1,6 +1,6 @@
 ## Trabajo Práctico Integrador Front-End Codo a Codo 4.0 FullStack Java
 
-Proyecto realizado con HTML, CSS y Bootstrap 5.3.
+Proyecto realizado con HTML, CSS y
 
 El trabajo práctico consistía en replicar el siguiente modelo de página
 
@@ -10,4 +10,4 @@ El trabajo práctico consistía en replicar el siguiente modelo de página
 
 <h4 align="center"> :star: Resolución final del TP :star:
 
-[Aqui](https://marl8.github.io/TP-FrontEnd-Codo-a-Codo-4.0/) <h4>
+[Aqui](https://avincze.github.io/TP-FrontEnd-Codo-a-Codo-4.0/) <h4>
