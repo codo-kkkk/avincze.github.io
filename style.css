@@ -1,3 +1,5 @@
+/*Página Principal*/
+
 .navbar {
     padding: 3rem;        
 }
@@ -29,6 +31,7 @@
 .card-text1 {
     font-size: 1rem;
     padding-top: 1.5rem;
+    text-align: justify;
 }
 
 .card-title1 {
@@ -37,6 +40,11 @@
 
 .btn-success{
     background: rgb(14, 151, 14) !important;
+}
+
+.btn-success:hover{
+    border: none;
+    background: rgb(9, 72, 9) !important;
 }
 
 .titulo-oradores div{
@@ -52,6 +60,12 @@
 .container-oradores {
     margin-top: 20px;
     padding: 1rem 10rem;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    background-color: rgb(221, 218, 218);
+    cursor: pointer;
 }
 
 .card-text {
@@ -119,26 +133,105 @@ footer {
     padding: 1.5rem 2.5rem !important;
 }
 
+.swal2-popup {
+    width: 50px;
+    }
+
+/* Página Tickets */
+
+.link-verde-ticket{
+    color: #9de853 !important; 
+}
+
+.row-group{
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between !important;
+}
+
+.grupo-tickets{
+    margin-top: 8rem;
+
+}
+
+.card-tickets {
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-tickets:hover{
+    transform: scale(0.9);
+    transition: 0.8s linear;
+    background-color: rgb(221, 218, 218);
+}
+
+.card-tickets-estudiante{
+    border: solid 1px rgb(41, 128, 234) !important;
+}
+
+.card-tickets-trainee{
+    border: solid 1px rgb(17, 150, 216) !important;
+}
+
+.card-tickets-junior{
+    border: solid 1px rgb(225, 192, 28) !important;
+}
+
+.formulario-tickets{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.total-pagar{
+    background-color: #cee4ee !important;
+}
+
+.container-btn-tickets{
+    align-items: center !important;
+}
+
+.btn-ticket{
+    width: 48.3%;
+    border: none !important;
+    background-color: #7fc33b !important;
+}
+
+.footer-ticket{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-ticket .footer-link{
+    font-size: 15px !important;
+}
+
+
 /* Responsive */
 
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 910px) {
 
     .navbar{
         position: static !important;
     }
 
+    .card-superpuesta img{
+        filter: brightness(100%);
+    }
+
     .tarjeta {
         padding-right: 8.5rem !important;
         max-height: 50vh;
-        padding-left: 40vw  !important;
+        padding-left: 40vw !important;
         font-size: 0.5rem;
     }
 
     .card-img-overlay {
-        padding-right: 1.5rem !important;
-        padding-left: 2% !important;
-        height: max-content;
-        max-height: 60%;
+        padding: 2rem !important;
+        position: static !important;
+        background-color: black;
     }
 
     .card-text1 {
@@ -149,6 +242,48 @@ footer {
     .card-title1 {
         font-size: 1.5rem;
     }
+
+    .formulario{
+        padding-top: 5px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .footer-lista{
+        padding: 0 2rem;
+    }
+
+    .footer-link{
+        padding: 1.5rem 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .grupo-tickets{
+        margin-top: 2rem;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .honolulu-text{
+        text-align: center;
+    }
+    
+    .honolulu-text .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    } 
+
+    .formulario-tickets{
+        width: 90%;
+    }
+
+    .footer-ticket{
+        position: static;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -156,5 +291,12 @@ footer {
     .container-oradores {
         margin-top: 20px;
         padding: 1rem 2rem;
+    }
+}
+
+@media screen and (min-width: 848px) and (min-height: 850px){
+
+    .footer-ticket{
+        position: fixed;
     }
 }
